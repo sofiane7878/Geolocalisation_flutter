@@ -30,13 +30,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  google_maps_flutter: ^2.12.1
+  google_maps_flutter: ^2.0.0  # ou la version que vous utilisez
   google_maps_flutter_web: ^0.5.12
   permission_handler: ^11.3.1
   geocoding: ^2.1.0
-  geolocator: ^9.0.2
+  geolocator: ^9.0.0  # ou la version que vous utilisez
   cupertino_icons: ^1.0.8
   connectivity_plus: ^5.0.2 
+  http: ^1.1.0  # Ajoutez cette ligne
 
 dev_dependencies:
   flutter_test:
